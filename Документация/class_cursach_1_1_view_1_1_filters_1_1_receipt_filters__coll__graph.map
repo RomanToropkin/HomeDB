@@ -1,0 +1,6 @@
+<map id="Cursach.View.Filters.ReceiptFilters" name="Cursach.View.Filters.ReceiptFilters">
+<area shape="rect" id="node1" title="Форма фильтрации таблицы квитанций Формы фильтрации имеют однотипный функционал и описаны в классе Fi..." alt="" coords="5,453,232,927"/>
+<area shape="rect" id="node2" title=" " alt="" coords="9,86,61,163"/>
+<area shape="rect" id="node3" title=" " alt="" coords="85,86,152,163"/>
+<area shape="rect" id="node4" href="$class_cursach_1_1_view_1_1_filters_1_1_filter_view_helper.html" title="Утилити класс для работы с фильтрами" alt="" coords="177,5,351,244"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Cursach.Model.Model" name="Cursach.Model.Model">
+<area shape="rect" id="node1" title="Абстрактный класс обертка для сериализации в JSON" alt="" coords="297,5,445,83"/>
+<area shape="rect" id="node2" href="$class_cursach_1_1_model_1_1_household.html" title="Модель таблицы &quot;Хоз.расходы&quot;" alt="" coords="5,138,180,289"/>
+<area shape="rect" id="node3" href="$class_cursach_1_1_model_1_1_person.html" title="Модель таблицы &quot;Жильцы&quot;" alt="" coords="205,131,359,296"/>
+<area shape="rect" id="node4" href="$class_cursach_1_1_model_1_1_receipt.html" title="Модель таблицы &quot;Квитанции&quot;" alt="" coords="383,153,541,274"/>
+<area shape="rect" id="node5" href="$class_cursach_1_1_model_1_1_service.html" title="Модель таблицы &quot;Расходы на обслуживание&quot;" alt="" coords="565,153,719,274"/>
+</map>

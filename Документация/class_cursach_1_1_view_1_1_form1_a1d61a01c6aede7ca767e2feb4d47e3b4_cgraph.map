@@ -1,0 +1,8 @@
+<map id="Cursach.View.Form1.DataGridViewPerson_MouseClick" name="Cursach.View.Form1.DataGridViewPerson_MouseClick">
+<area shape="rect" id="node1" title="Вызывается при нажатии ПКМ на элемент таблицы. Вызов контекстного меню" alt="" coords="5,71,204,112"/>
+<area shape="rect" id="node2" href="$class_cursach_1_1_view_1_1_form1.html#a27e6d82c23bc615900f6e75f22cb0fd1" title=" " alt="" coords="252,5,443,47"/>
+<area shape="rect" id="node4" href="$class_cursach_1_1_view_1_1_form1.html#ad58a7fec1f37e03ee402b7045868d2b3" title=" " alt="" coords="252,71,443,112"/>
+<area shape="rect" id="node5" href="$class_cursach_1_1_view_1_1_form1.html#ac73ebf92b6ecde5265a61a2244677e12" title=" " alt="" coords="252,136,443,177"/>
+<area shape="rect" id="node3" href="$class_cursach_1_1_view_1_1_form1.html#a454e7f02b9b9698cfe9fb919dd6016ba" title=" " alt="" coords="491,5,681,47"/>
+<area shape="rect" id="node6" href="$class_cursach_1_1_view_1_1_form1.html#a72a4a504ff4b652a3892a5fbfe49fd15" title=" " alt="" coords="491,136,681,177"/>
+</map>

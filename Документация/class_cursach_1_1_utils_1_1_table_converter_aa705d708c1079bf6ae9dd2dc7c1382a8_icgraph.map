@@ -1,0 +1,5 @@
+<map id="Cursach.Utils.TableConverter.ConvertToHousehold" name="Cursach.Utils.TableConverter.ConvertToHousehold">
+<area shape="rect" id="node1" title="Конвертация из общий модели в Household" alt="" coords="257,27,451,69"/>
+<area shape="rect" id="node2" href="$class_cursach_1_1_view_1_1_form1.html#a39985e521c1a3b1658e826043fe5727e" title="Инициализация формы и скачивания таблиц из внешнего файла. Инициализация привязок данных к таблицам" alt="" coords="15,5,199,32"/>
+<area shape="rect" id="node3" href="$class_cursach_1_1_view_1_1_form1.html#ab9142f0b9da45dedd3755fb6c063eb49" title=" " alt="" coords="5,57,209,98"/>
+</map>

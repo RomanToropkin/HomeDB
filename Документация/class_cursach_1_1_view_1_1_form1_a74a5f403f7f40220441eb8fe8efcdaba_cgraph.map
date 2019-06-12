@@ -1,0 +1,7 @@
+<map id="Cursach.View.Form1.MenuItemSaveLock_Click" name="Cursach.View.Form1.MenuItemSaveLock_Click">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,209,112"/>
+<area shape="rect" id="node2" href="$class_cursach_1_1_utils_1_1_table_converter.html#a9fc3246be93537d5cbde09688451450d" title="Конвертация из модели Person в общую модель" alt="" coords="257,5,451,47"/>
+<area shape="rect" id="node3" href="$class_cursach_1_1_utils_1_1_db_context.html#a269cd689c37cb227297fd96421a90f07" title="Получение единственного экземпляра класса" alt="" coords="269,71,439,112"/>
+<area shape="rect" id="node5" href="$class_cursach_1_1_utils_1_1_db_context.html#a4cb10700c0aa1d65f087bbbc87113b89" title="Запись в файл по умолчанию" alt="" coords="269,136,439,177"/>
+<area shape="rect" id="node4" href="$class_cursach_1_1_utils_1_1_db_context.html#a3a5bb28dfbd468c36cf53d0542ffff8c" title=" " alt="" coords="499,71,668,112"/>
+</map>

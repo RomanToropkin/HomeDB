@@ -1,0 +1,13 @@
+<map id="Cursach.View.Form1.Form1" name="Cursach.View.Form1.Form1">
+<area shape="rect" id="node1" title="Инициализация формы и скачивания таблиц из внешнего файла. Инициализация привязок данных к таблицам" alt="" coords="5,209,189,235"/>
+<area shape="rect" id="node2" href="$class_cursach_1_1_utils_1_1_db_context.html#a269cd689c37cb227297fd96421a90f07" title="Получение единственного экземпляра класса" alt="" coords="249,5,419,47"/>
+<area shape="rect" id="node4" href="$class_cursach_1_1_utils_1_1_table_converter.html#a0791471ed2627ff52141445db94a9f33" title="Конвертация из общий модели в Person" alt="" coords="237,71,431,112"/>
+<area shape="rect" id="node5" href="$class_cursach_1_1_view_helpers_1_1_table_helper.html#a13244686c48b1ceac9092937612bf278" title=" " alt="" coords="243,136,425,177"/>
+<area shape="rect" id="node8" href="$class_cursach_1_1_utils_1_1_table_converter.html#a80dc3bd7ac19f624baaf82f04f84c2fd" title="Конвертация из общий модели в Service" alt="" coords="237,332,431,373"/>
+<area shape="rect" id="node9" href="$class_cursach_1_1_view_helpers_1_1_table_helper.html#a58ba37f62f8705d6b388d3e925ae47e6" title=" " alt="" coords="243,201,425,243"/>
+<area shape="rect" id="node10" href="$class_cursach_1_1_utils_1_1_table_converter.html#aa705d708c1079bf6ae9dd2dc7c1382a8" title="Конвертация из общий модели в Household" alt="" coords="237,397,431,439"/>
+<area shape="rect" id="node11" href="$class_cursach_1_1_view_helpers_1_1_table_helper.html#ae36731108c4690bcb7cb6134179b940f" title=" " alt="" coords="239,267,429,308"/>
+<area shape="rect" id="node3" href="$class_cursach_1_1_utils_1_1_db_context.html#a3a5bb28dfbd468c36cf53d0542ffff8c" title=" " alt="" coords="485,5,654,47"/>
+<area shape="rect" id="node6" href="$class_cursach_1_1_view_helpers_1_1_table_helper.html#ab42d565de4461a729aac0e2604e2f907" title=" " alt="" coords="479,235,660,276"/>
+<area shape="rect" id="node7" href="$class_cursach_1_1_view_helpers_1_1_table_helper.html#a26d88ea57e6eccfde71ac3c6111966b0" title=" " alt="" coords="479,169,660,211"/>
+</map>

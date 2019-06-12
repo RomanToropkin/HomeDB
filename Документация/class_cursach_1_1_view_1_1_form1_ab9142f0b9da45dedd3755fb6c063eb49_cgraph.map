@@ -1,0 +1,8 @@
+<map id="Cursach.View.Form1.MenuItemOpenFile_Click" name="Cursach.View.Form1.MenuItemOpenFile_Click">
+<area shape="rect" id="node1" title=" " alt="" coords="5,104,209,145"/>
+<area shape="rect" id="node2" href="$class_cursach_1_1_utils_1_1_db_context.html#a269cd689c37cb227297fd96421a90f07" title="Получение единственного экземпляра класса" alt="" coords="269,5,439,47"/>
+<area shape="rect" id="node4" href="$class_cursach_1_1_utils_1_1_table_converter.html#a0791471ed2627ff52141445db94a9f33" title="Конвертация из общий модели в Person" alt="" coords="257,71,451,112"/>
+<area shape="rect" id="node5" href="$class_cursach_1_1_utils_1_1_table_converter.html#a80dc3bd7ac19f624baaf82f04f84c2fd" title="Конвертация из общий модели в Service" alt="" coords="257,136,451,177"/>
+<area shape="rect" id="node6" href="$class_cursach_1_1_utils_1_1_table_converter.html#aa705d708c1079bf6ae9dd2dc7c1382a8" title="Конвертация из общий модели в Household" alt="" coords="257,201,451,243"/>
+<area shape="rect" id="node3" href="$class_cursach_1_1_utils_1_1_db_context.html#a3a5bb28dfbd468c36cf53d0542ffff8c" title=" " alt="" coords="499,5,668,47"/>
+</map>
