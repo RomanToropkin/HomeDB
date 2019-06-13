@@ -1,0 +1,22 @@
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Release\Cursach.csprojAssemblyReference.cache
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Release\Cursach.View.EditForms.PersonEdit.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Release\Cursach.View.EditForms.ReceiptAdd.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Release\Cursach.View.EditForms.ReceiptEdit.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Release\Cursach.View.EditForms.ServiceEdit.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Release\Cursach.View.Filters.ReceiptFilters.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Release\Cursach.View.Filters.ServiceFilters.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Release\Cursach.Properties.Resources.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Release\Cursach.PersonFilters.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Release\Cursach.View.ReceiptForm.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Release\Cursach.csproj.GenerateResource.cache
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Release\Cursach.csproj.CoreCompileInputs.cache
+C:\Users\FranQ\source\repos\Cursach\Cursach\bin\Release\База данных Дома 404.exe.config
+C:\Users\FranQ\source\repos\Cursach\Cursach\bin\Release\База данных Дома 404.exe
+C:\Users\FranQ\source\repos\Cursach\Cursach\bin\Release\База данных Дома 404.pdb
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Release\База данных Дома 404.g.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Release\Cursach.View.EditForms.HouseholdEdit.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Release\Cursach.View.Filters.HouseholdFilters.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Release\Cursach.View.Form1.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Release\Cursach.View.SplashScreen.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Release\База данных Дома 404.exe
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Release\База данных Дома 404.pdb

@@ -1,0 +1,24 @@
+[{"__type":"Household:#Cursach.Model","Cost":10,"Count":10,"Date":"11.06.2019","FinalCost":100,"ID":1,"Title":"Лопата"},{"__type":"Household:#Cursach.Model","Cost":6,"Count":5,"Date":"11.06.2019","FinalCost":30,"ID":3,"Title":"Тряпка"},{"__type":"Household:#Cursach.Model","Cost":10,"Count":13,"Date":"11.06.2019","FinalCost":130,"ID":4,"Title":"Грабли"},{"__type":"Household:#Cursach.Model","Cost":5,"Count":5,"Date":"11.06.2019","FinalCost":25,"ID":5,"Title":"Ведро"},{"__type":"Household:#Cursach.Model","Cost":5000,"Count":1,"Date":"11.06.2019","FinalCost":5000,"ID":6,"Title":"Инструменты"}] "Date": "11.06.2019",
+    "FinalCost": 25,
+    "ID": 5,
+    "Title": "Ведро"
+  },
+  {
+    "__type": "Household:#Cursach.Model",
+    "Cost": 5000,
+    "Count": 1,
+    "Date": "11.06.2019",
+    "FinalCost": 5000,
+    "ID": 6,
+    "Title": "Инструменты"
+  },
+  {
+    "__type": "Household:#Cursach.Model",
+    "Cost": 50,
+    "Count": 10,
+    "Date": "11.06.2019",
+    "FinalCost": 500,
+    "ID": 8,
+    "Title": "Бумага"
+  }
+]

@@ -1,0 +1,1114 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>База данных Дома 404</name>
+    </assembly>
+    <members>
+        <member name="T:Cursach.Model.Household">
+            <summary>
+            Модель таблицы "Хоз.расходы"
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.Household.ID">
+            <summary>
+            Идентификатор.
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.Household.Title">
+            <summary>
+            Наименование.
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.Household.Date">
+            <summary>
+            Дата добавления.
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.Household.Count">
+            <summary>
+            Колличество в шт.
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.Household.Cost">
+            <summary>
+            Цена за шт.
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.Household.FinalCost">
+            <summary>
+            Итоговая стоимость.
+            </summary>
+        </member>
+        <member name="T:Cursach.Model.Model">
+            <summary>
+            Абстрактный класс обертка для сериализации в JSON
+            </summary>
+        </member>
+        <member name="T:Cursach.Model.MetaInfo">
+            <summary>
+            Информация о таблицах
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.MetaInfo.PersonNumber">
+            <summary>
+            Последниий ID для таблицы Person
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.MetaInfo.ReceiptNumber">
+            <summary>
+            Последниий ID для таблицы Receipt
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.MetaInfo.ServiceNumber">
+            <summary>
+            Последниий ID для таблицы Service
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.MetaInfo.HouseholdNumber">
+            <summary>
+            Последниий ID для таблицы Household
+            </summary>
+        </member>
+        <member name="T:Cursach.Model.Receipt">
+            <summary>
+            Модель таблицы "Квитанции"
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.Receipt.ID">
+            <summary>
+            Идентификатор
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.Receipt.Title">
+            <summary>
+            Наименование
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.Receipt.Date">
+            <summary>
+            Дата создания
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.Receipt.Cost">
+            <summary>
+            Итоговая сумма
+            </summary>
+        </member>
+        <member name="T:Cursach.Model.Service">
+            <summary>
+            Модель таблицы "Расходы на обслуживание"
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.Service.ID">
+            <summary>
+            Идентификатор
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.Service.Title">
+            <summary>
+            Наименование
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.Service.Date">
+            <summary>
+            Дата создания
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.Service.Cost">
+            <summary>
+            Итоговая сумма
+            </summary>
+        </member>
+        <member name="T:Cursach.Model.Person">
+            <summary>
+            Модель таблицы "Жильцы"
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.Person.Id">
+            <summary>
+            Идентификатор
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.Person.Fullname">
+            <summary>
+            Ф.И.О
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.Person.FlatNumber">
+            <summary>
+            Номер квартиры
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.Person.ResidentsNumber">
+            <summary>
+            Число проживающих в квартире
+            </summary>
+        </member>
+        <member name="P:Cursach.Model.Person.Receipts">
+            <summary>
+            Список квитанций
+            </summary>
+        </member>
+        <member name="M:Cursach.Model.Person.#ctor(Cursach.Model.Person)">
+            <summary>
+            Клонируюший конструктор
+            </summary>
+            <param name="person"></param>
+        </member>
+        <member name="T:Cursach.View.EditForms.HouseholdEdit">
+            <summary>
+            Форма редактирования таблицы Хоз.расходов
+            </summary>
+        </member>
+        <member name="M:Cursach.View.EditForms.HouseholdEdit.#ctor(Cursach.Model.Household)">
+            <summary>
+            Инициализация формы
+            </summary>
+            <param name="household">Выбранный элемент в таблице</param>
+        </member>
+        <member name="M:Cursach.View.EditForms.HouseholdEdit.OnKeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            Запрет на ввод цифр
+            </summary>
+        </member>
+        <member name="M:Cursach.View.EditForms.HouseholdEdit.OnKeyNumberPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            Запрет на ввод буквенных символов
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Cursach.View.EditForms.HouseholdEdit.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Cursach.View.EditForms.HouseholdEdit.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Cursach.View.EditForms.HouseholdEdit.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Cursach.View.EditForms.PersonEdit">
+            <summary>
+            Форма редактирования таблицы жильцов
+            </summary>
+        </member>
+        <member name="M:Cursach.View.EditForms.PersonEdit.#ctor(Cursach.Model.Person)">
+            <summary>
+            Инициализация формы
+            </summary>
+            <param name="person">Выбранный элемент таблицы</param>
+        </member>
+        <member name="F:Cursach.View.EditForms.PersonEdit.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Cursach.View.EditForms.PersonEdit.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Cursach.View.EditForms.PersonEdit.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Cursach.View.EditForms.ReceiptAdd">
+            <summary>
+            Форма добавления квитанци
+            </summary>
+        </member>
+        <member name="T:Cursach.View.EditForms.ReceiptAdd.AddReceiptEventHandler">
+            <summary>
+            Делегат на добавление элемента в таблицу
+            </summary>
+            <param name="name"></param>
+            <param name="date"></param>
+            <param name="d"></param>
+        </member>
+        <member name="M:Cursach.View.EditForms.ReceiptAdd.#ctor(Cursach.Model.Person)">
+            <summary>
+            Инициализация формы
+            </summary>
+            <param name="p">Выбранный элемент таблицы</param>
+        </member>
+        <member name="F:Cursach.View.EditForms.ReceiptAdd.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Cursach.View.EditForms.ReceiptAdd.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Cursach.View.EditForms.ReceiptAdd.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Cursach.View.EditForms.ReceiptEdit">
+            <summary>
+            Форма редактирования квитанции
+            </summary>
+        </member>
+        <member name="M:Cursach.View.EditForms.ReceiptEdit.#ctor(Cursach.Model.Receipt)">
+            <summary>
+            Инициализация формы
+            </summary>
+            <param name="receipt">Выбранный элемент таблицы"></param>
+        </member>
+        <member name="F:Cursach.View.EditForms.ReceiptEdit.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Cursach.View.EditForms.ReceiptEdit.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Cursach.View.EditForms.ReceiptEdit.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Cursach.View.EditForms.ServiceEdit">
+            <summary>
+            Форма редактирования таблицы расходов на обслуживание
+            </summary>
+        </member>
+        <member name="M:Cursach.View.EditForms.ServiceEdit.#ctor(Cursach.Model.Service)">
+            <summary>
+            Инициализация формы
+            </summary>
+            <param name="service">Выбранный элемент</param>
+        </member>
+        <member name="F:Cursach.View.EditForms.ServiceEdit.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Cursach.View.EditForms.ServiceEdit.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Cursach.View.EditForms.ServiceEdit.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Cursach.View.Filters.FilterViewHelper">
+            <summary>
+            Утилити класс для работы с фильтрами
+            </summary>
+        </member>
+        <member name="F:Cursach.View.Filters.FilterViewHelper._listBox">
+            <summary>
+            Область критерия сортировки
+            </summary>
+        </member>
+        <member name="F:Cursach.View.Filters.FilterViewHelper._sortAbs">
+            <summary>
+            Метка сортировки по возрастанию
+            </summary>
+        </member>
+        <member name="F:Cursach.View.Filters.FilterViewHelper._sortDesc">
+            <summary>
+            Метка сортировки по убыванию
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Filters.FilterViewHelper.DragAndDrop(System.Windows.Forms.DragEventArgs,System.Boolean@,System.Boolean@)">
+            <summary>
+            Вызывается при перетаскивания Label-a в компонент ListBox
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Filters.FilterViewHelper.ButtonUp">
+            <summary>
+            Повышение приоритета параметра сортировки
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Filters.FilterViewHelper.ButtonDown">
+            <summary>
+            Понижение приоритета параметра сортировки
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Filters.FilterViewHelper.Sort">
+            <summary>
+            Формирования параметров сортировки
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Filters.FilterViewHelper.DeleteSortedInfo">
+            <summary>
+            Удаление параметра сортировки
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Filters.FilterViewHelper.RaisePriority">
+            <summary>
+            Повышение приоритета сортировки
+            </summary>
+            <returns>Возвращает состояние повышения приоритета</returns>
+        </member>
+        <member name="M:Cursach.View.Filters.FilterViewHelper.LowerPriority">
+            <summary>
+            Понижение приоритета сортировки
+            </summary>
+            <returns>Возвращает состояние понижения сортировки</returns>
+        </member>
+        <member name="M:Cursach.View.Filters.FilterViewHelper.KeyDown(System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            Обработка стрелок вверх, вниз и delete в области критериеи сортировки
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="T:Cursach.View.Filters.HouseholdFilters">
+            <summary>
+            Форма фильтрации таблицы хоз.расходов
+            Формы фильтрации имеют однотипный функционал и описаны в классе <see cref="T:Cursach.View.Filters.FilterViewHelper"/>
+            </summary>
+        </member>
+        <member name="F:Cursach.View.Filters.HouseholdFilters.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Filters.HouseholdFilters.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Cursach.View.Filters.HouseholdFilters.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Cursach.View.Filters.ReceiptFilters">
+            <summary>
+            Форма фильтрации таблицы квитанций
+            Формы фильтрации имеют однотипный функционал и описаны в классе <see cref="T:Cursach.View.Filters.FilterViewHelper"/>
+            </summary>
+        </member>
+        <member name="F:Cursach.View.Filters.ReceiptFilters.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Filters.ReceiptFilters.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Cursach.View.Filters.ReceiptFilters.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Cursach.View.Filters.ServiceFilters">
+            <summary>
+            Форма фильтрации таблицы расходов на обслуживание
+            Формы фильтрации имеют однотипный функционал и описаны в классе <see cref="T:Cursach.View.Filters.FilterViewHelper"/>
+            </summary>
+        </member>
+        <member name="F:Cursach.View.Filters.ServiceFilters.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Filters.ServiceFilters.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Cursach.View.Filters.ServiceFilters.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Cursach.View.Filters.FilterInfo">
+            <summary>
+            Параметры фильтрации
+            </summary>
+        </member>
+        <member name="P:Cursach.View.Filters.FilterInfo.Name">
+            <summary>
+            Заголовок Label
+            </summary>
+        </member>
+        <member name="P:Cursach.View.Filters.FilterInfo.ST">
+            <summary>
+            Тип сортировки
+            </summary>
+        </member>
+        <member name="P:Cursach.View.Filters.FilterInfo.Label">
+            <summary>
+            Метка сортировки
+            </summary>
+        </member>
+        <member name="T:Cursach.View.Filters.FilterInfo.SortType">
+            <summary>
+            Параметры сортировки
+            </summary>
+        </member>
+        <member name="T:Cursach.View.Filters.FilterInfo.SearchType">
+            <summary>
+            Параметры поиска
+            </summary>
+        </member>
+        <member name="T:Cursach.View.Filters.FilterInfo.GroupType">
+            <summary>
+            Параметры группировки
+            </summary>
+        </member>
+        <member name="T:Cursach.View.Form1">
+            <summary>
+            Главная форма приложения, объединяющая весь функционал программы. "Ядро" приложения
+            
+            </summary>
+        </member>
+        <member name="F:Cursach.View.Form1._metaInfo">
+            <summary>
+            Мета-данные таблиц
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.#ctor">
+            <summary>
+            Инициализация формы и скачивания таблиц из внешнего файла.
+            Инициализация привязок данных к таблицам
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.DataGridViewPerson_MouseClick(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Вызывается при нажатии ПКМ на элемент таблицы. Вызов контекстного меню
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.ReceiptMenu_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при нажатии на пункт меню "Посмотреть счет" в таблице "Жильцы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.ReceiptForm_FormClosed(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+            <summary>
+            Вызывается при закрытии формы отображения квитанций
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.ChangeItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при нажатии на пункт меню "Изменить" в таблице "Жильцы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.DelItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при нажатии на пункт меню "Удалить" в таблице "Жильцы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.BtnPersonAdd_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при нажатии на кнопку "Добавить запись" в таблице "Жильцы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.BtnPersonFilter_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при нажатии на кнопку "Фильтры" в таблице "Жильцы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.FilterForm_FormClosed(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+            <summary>
+            Вызывается при закрытии формы фильтров для таблицы "Жильцы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.FilterForm_ButtonEvent(System.Collections.Generic.IEnumerable{Cursach.View.Filters.FilterInfo},System.Boolean)">
+            <summary>
+            Вызывается при сортировки таблицы "Жильцы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.FilterForm_ButtonGroupEvent(Cursach.View.Filters.FilterInfo.GroupType,System.Int32,System.Int32)">
+            <summary>
+            Вызывается при группировке таблицы "Жильцы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.FilterForm_ButtonSearchEvent(Cursach.View.Filters.FilterInfo.SearchType,System.String)">
+            <summary>
+            Вызывается при поиске в таблице "Жильцы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.BtnClear_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при нажатии на кнопку "Сбросить фильтры" в таблице "Жильцы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.BtnPersonReceiptAdd_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при нажатии на кнопку "Добавить счет" в таблице "Жильцы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.ReceiptAdd_FormClosed(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+            <summary>
+            Вызывается при закрытии формы с добавление квитанции
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.Form_OnAddEvent(System.String,System.String,System.Double)">
+            <summary>
+            Вызывается при добавлении новой квитанции в таблице "Жильцы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.DataGridView1_SelectionChanged(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при изменении выбраной записи в таблице "Жильцы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.BtnServiceAdd_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при нажатии на кнопку "Добавить запись" в таблице "Расходы на обслуживание"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.DataGridViewService_MouseClick(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Вызывается при вызове контекстного меню в таблице "Расходы на обслуживание"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.ServiceChangeItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при нажатии на пункт меню "Изменить" в таблице "Расходы на обслуживание"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.ServiceDelItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при нажатии на пункт меню "Удалить" в таблице "Расходы на обслуживание"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.BtnServiceFilters_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при нажатии на кнопку "Фильтры" в таблице "Расходы на обслуживание"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.ServiceFilterForm_FormClosed(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+            <summary>
+            Вызывается при закрытии фильтров таблицы "Расходы на обслуживание"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.ServiceFilterForm_ButtonGroupEvent(Cursach.View.Filters.FilterInfo.GroupType,System.Int32,System.Int32,System.String,System.String)">
+            <summary>
+            Вызывается при группировки таблицы "Расходы на обслуживание"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.ServiceFilterForm_ButtonSearchEvent(Cursach.View.Filters.FilterInfo.SearchType,System.String)">
+            <summary>
+            Вызывается при поиске записи в таблице "Расходы на обслуживание"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.ServiceFilterForm_ButtonSortEvent(System.Collections.Generic.IEnumerable{Cursach.View.Filters.FilterInfo},System.Boolean)">
+            <summary>
+            Вызывается при группировки таблицы "Расходы на обслуживание"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.BtnServiceClear_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при нажатии на кнопку "Сбросить фильтры" в таблице "Расходы на обслуживание"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.DataGridViewService_SelectionChanged(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при изменении выбранного элемента таблицы "Расходы на обслуживание"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.BtnHouseAdd_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при нажатии на кнопку "Добавить запись" таблицы "Хоз.расходы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.DataGridViewHouse_MouseClick(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Вызывается при вызове контекстного меню таблицы "Хоз.расходы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.HouseholdChangeItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при нажатии на пункт меню "Изменить" таблицы "Хоз.расходы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.HouseholdDelItem_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при нажатии на пункт меню "Удалить" таблицы "Хоз.расходы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.DataGridViewHouse_SelectionChanged(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при изменении выбраной записи таблицы "Хоз.расходы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.BtnHouseFilter_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при нажатии на кнопку "Фильтры" таблицы "Хоз.расходы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.HouseholdFilterForm_FormClosed(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+            <summary>
+            Вызывается при закрытии фильтров таблицы "Хоз.расходы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.HouseholdFilterForm_ButtonGroupEvent(Cursach.View.Filters.FilterInfo.GroupType,System.Int32,System.Int32,System.String,System.String)">
+            <summary>
+            Вызывается при группировки таблицы "Хоз.расходы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.HouseholdFilterForm_ButtonSearchEvent(Cursach.View.Filters.FilterInfo.SearchType,System.String)">
+            <summary>
+            Вызывается при поиске записи в таблице "Хоз.расходы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.HouseholdFilterForm_ButtonSortEvent(System.Collections.Generic.IEnumerable{Cursach.View.Filters.FilterInfo},System.Boolean)">
+            <summary>
+            Вызывается при сортировки таблицы "Хоз.расходы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.BtnHouseClear_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при нажатии на кнопку "Сбросить фильтры" таблицы "Хоз.расходы"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.ChangeFilterButtonState(System.Windows.Forms.Button,System.Boolean)">
+            <summary>
+            Вызывается при изменении состояния кнопки "Фильтры"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.OnKeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            Только буквенные символы
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.OnKeyNumberPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            Только цифры
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.OnKeyDoublePress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            Цифры и ,
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.ChangeForm_FormClosed(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+            <summary>
+            Вызывается при закрытии формы "Изменить"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.MenuItemSaveLock_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при нажатии на пункт меню "Сохранить в зашифрованном виде"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.Form1_FormClosed(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+            <summary>
+            Вызывается при закрытии текущей формы
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.MenuItemSaveJson_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при нажатии на пункт меню "Сохранить в JSON"
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.MenuItemOpenFile_Click(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при нажатии на пункт меню "Открыть файл"
+            </summary>
+        </member>
+        <member name="T:Cursach.View.Form1.FileType">
+            <summary>
+            Тип файла
+            </summary>
+        </member>
+        <member name="F:Cursach.View.Form1.components">
+            <summary>
+            Обязательная переменная конструктора.
+            </summary>
+        </member>
+        <member name="M:Cursach.View.Form1.Dispose(System.Boolean)">
+            <summary>
+            Освободить все используемые ресурсы.
+            </summary>
+            <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        </member>
+        <member name="M:Cursach.View.Form1.InitializeComponent">
+            <summary>
+            Требуемый метод для поддержки конструктора — не изменяйте 
+            содержимое этого метода с помощью редактора кода.
+            </summary>
+        </member>
+        <member name="T:Cursach.View.ReceiptForm">
+            <summary>
+            Аналогочно с главной формой см. <see cref="T:Cursach.View.Form1"/>
+            </summary>
+        </member>
+        <member name="F:Cursach.View.ReceiptForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Cursach.View.ReceiptForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Cursach.View.ReceiptForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Cursach.View.SplashScreen">
+            <summary>
+            Стартовое окно
+            </summary>
+        </member>
+        <member name="M:Cursach.View.SplashScreen.SplashScreen_Shown(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается при показе формы
+            </summary>
+        </member>
+        <member name="M:Cursach.View.SplashScreen.tmr_Tick(System.Object,System.EventArgs)">
+            <summary>
+            Вызывается после 1.5 секунды от начала работы программы
+            </summary>
+        </member>
+        <member name="F:Cursach.View.SplashScreen.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Cursach.View.SplashScreen.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Cursach.View.SplashScreen.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Cursach.PersonFilters">
+            <summary>
+            Форма фильтрации таблицы жильцев
+            Формы фильтрации имеют однотипный функционал и описаны в классе <see cref="T:Cursach.View.Filters.FilterViewHelper"/>
+            </summary>
+        </member>
+        <member name="F:Cursach.PersonFilters.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Cursach.PersonFilters.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Cursach.PersonFilters.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Cursach.Utils.Crypto">
+            <summary>
+            Криптография. шифровка/дешифровка файла методом AES.
+            </summary>
+        </member>
+        <member name="M:Cursach.Utils.Crypto.ProcessFile(System.String,System.String,System.Boolean,System.String)">
+            <summary>
+            Процесс шифрования/дешифрования
+            </summary>
+            <param name="inputPath">Путь к файлу</param>
+            <param name="password">Криптографический пароль</param>
+            <param name="encryptMode">Режим шифрования</param>
+            <param name="outputPath">Выходной путь файла</param>
+        </member>
+        <member name="T:Cursach.Utils.DbContext">
+            <summary>
+            Репозиторий для работы с бд
+            </summary>
+        </member>
+        <member name="F:Cursach.Utils.DbContext._syncRoot">
+            <summary>
+            Заглушка для синхронизации
+            </summary>
+        </member>
+        <member name="F:Cursach.Utils.DbContext._instance">
+            <summary>
+            Единственный экземпляр класса
+            </summary>
+        </member>
+        <member name="F:Cursach.Utils.DbContext.DIR">
+            <summary>
+            Католог базы данных
+            </summary>
+        </member>
+        <member name="F:Cursach.Utils.DbContext.CACHE_FILE_NAME">
+            <summary>
+            Временный файл для шифрования/дешифрования
+            </summary>
+        </member>
+        <member name="M:Cursach.Utils.DbContext.GetInstance">
+            <summary>
+            Получение единственного экземпляра класса
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Cursach.Utils.DbContext.WriteFile(Cursach.Utils.DbContext.FILE_NAME,System.Collections.Generic.List{Cursach.Model.Model})">
+            <summary>
+            Запись в файл по умолчанию
+            </summary>
+            <param name="fileName">Путь к файлу</param>
+            <param name="data">Таблица</param>
+        </member>
+        <member name="M:Cursach.Utils.DbContext.WriteFile(System.String,System.Collections.Generic.List{Cursach.Model.Model})">
+            <summary>
+            Запись в файл
+            </summary>
+            <param name="fileName">Путь к файлу</param>
+            <param name="data">Таблица</param>
+        </member>
+        <member name="M:Cursach.Utils.DbContext.WriteJsonFile(System.String,System.Collections.Generic.List{Cursach.Model.Model})">
+            <summary>
+            Запись таблицы в виде JSON
+            </summary>
+            <param name="fileName">Путь к файлу</param>
+            <param name="data">Таблица</param>
+        </member>
+        <member name="M:Cursach.Utils.DbContext.WriteFile(System.String,System.String,System.Collections.Generic.List{Cursach.Model.Model})">
+            <summary>
+            Запись в файл. Конвертация временного файла в зашифрованный
+            </summary>
+            <param name="fileName"></param>
+            <param name="cacheFileName"></param>
+            <param name="data"></param>
+        </member>
+        <member name="M:Cursach.Utils.DbContext.WriteMetaInfo(Cursach.Model.MetaInfo)">
+            <summary>
+            Запись мета-данных
+            </summary>
+            <param name="metaInfo">Мета-данные</param>
+        </member>
+        <member name="M:Cursach.Utils.DbContext.ReadFile(Cursach.Utils.DbContext.FILE_NAME)">
+            <summary>
+            Чтение файла по умолчанию
+            </summary>
+            <param name="fileName">Путь к файлу</param>
+            <returns>ТТаблица</returns>
+        </member>
+        <member name="M:Cursach.Utils.DbContext.ReadFile(System.String)">
+            <summary>
+            Чтение файла
+            </summary>
+            <param name="fileName">Путь к файлу</param>
+            <returns>Таблица</returns>
+        </member>
+        <member name="M:Cursach.Utils.DbContext.ReadMetaInfo">
+            <summary>
+            Возвращает  мета-данных
+            </summary>
+            <returns>Мета-данные</returns>
+        </member>
+        <member name="M:Cursach.Utils.DbContext.CheckDir">
+            <summary>
+            Проверка существования каталога DIR
+            </summary>
+        </member>
+        <member name="M:Cursach.Program.Main">
+            <summary>
+            Главная точка входа для приложения.
+            </summary>
+        </member>
+        <member name="T:Cursach.ViewHelpers.TableConverter">
+            <summary>
+            Конвертор данных таблиц
+            </summary>
+        </member>
+        <member name="M:Cursach.ViewHelpers.TableConverter.ConvertToPerson(System.Collections.Generic.List{Cursach.Model.Model})">
+            <summary>
+            Конвертация из общий модели в Person
+            </summary>
+            <returns>Таблица Person</returns>
+        </member>
+        <member name="M:Cursach.ViewHelpers.TableConverter.ConvertToService(System.Collections.Generic.List{Cursach.Model.Model})">
+            <summary>
+            Конвертация из общий модели в Service
+            </summary>
+            <returns>Таблица Service</returns>
+        </member>
+        <member name="M:Cursach.ViewHelpers.TableConverter.ConvertToHousehold(System.Collections.Generic.List{Cursach.Model.Model})">
+            <summary>
+            Конвертация из общий модели в Household
+            </summary>
+            <returns>Таблица Household</returns>
+        </member>
+        <member name="M:Cursach.ViewHelpers.TableConverter.ConvertToModel(System.Collections.Generic.List{Cursach.Model.Person})">
+            <summary>
+            Конвертация из модели Person в общую модель
+            </summary>
+        </member>
+        <member name="M:Cursach.ViewHelpers.TableConverter.ConvertToModel(System.Collections.Generic.List{Cursach.Model.Service})">
+            <summary>
+            Конвертация из модели Service в общую модель
+            </summary>
+        </member>
+        <member name="M:Cursach.ViewHelpers.TableConverter.ConvertToModel(System.Collections.Generic.List{Cursach.Model.Household})">
+            <summary>
+            Конвертация из модели Household в общую модель
+            </summary>
+        </member>
+        <member name="T:Cursach.ViewHelpers.TableHelper">
+            <summary>
+            Утилити класс для работы с графическим элементом интерфейса GridViewTable
+            </summary>
+        </member>
+        <member name="M:Cursach.ViewHelpers.TableHelper.SetupPersonTable(System.Windows.Forms.DataGridView,System.Windows.Forms.BindingSource)">
+            <summary>
+            Установление заголовков таблицы "Жильцы"
+            </summary>
+            <param name="gridView">Тview таблица</param>
+            <param name="source">Привязка</param>
+        </member>
+        <member name="M:Cursach.ViewHelpers.TableHelper.SetupReceiptTable(System.Windows.Forms.DataGridView,System.Windows.Forms.BindingSource)">
+            <summary>
+            Установление заголовков таблицы "Квитанции"
+            </summary>
+            <param name="gridView">Тview таблица</param>
+            <param name="source">Привязка</param>
+        </member>
+        <member name="M:Cursach.ViewHelpers.TableHelper.SetupServiceTable(System.Windows.Forms.DataGridView,System.Windows.Forms.BindingSource)">
+            <summary>
+            Установление заголовков таблицы "Расходы на обслуживание"
+            </summary>
+            <param name="gridView">Тview таблица</param>
+            <param name="source">Привязка</param>
+        </member>
+        <member name="M:Cursach.ViewHelpers.TableHelper.SetupHouseholdTable(System.Windows.Forms.DataGridView,System.Windows.Forms.BindingSource)">
+            <summary>
+            Установление заголовков таблицы "Хоз. расходы"
+            </summary>
+            <param name="gridView">Тview таблица</param>
+            <param name="source">Привязка</param>
+        </member>
+        <member name="M:Cursach.ViewHelpers.TableHelper.SetupGrid(System.Windows.Forms.DataGridView,System.Windows.Forms.BindingSource)">
+            <summary>
+            Удаление стобца ID и отмена автозаполнения заголовков
+            </summary>
+            <param name="gridView">Тview таблица</param>
+            <param name="source">Привязка</param>
+        </member>
+        <member name="M:Cursach.ViewHelpers.TableHelper.SetupHeader(System.Windows.Forms.DataGridViewColumn,System.String,System.Int32)">
+            <summary>
+            Добавление заголовка
+            </summary>
+            <param name="dataGridViewColumn">Позиция заголовка</param>
+            <param name="caption">Название</param>
+            <param name="weight">Занимаемая область от 0 до 1</param>
+        </member>
+        <member name="M:Cursach.ViewHelpers.TableHelper.CreateMenu(System.Windows.Forms.DataGridView,System.Windows.Forms.MouseEventArgs,Cursach.Model.Model,System.EventHandler,System.EventHandler)">
+            <summary>
+            Создание контекстного меню
+            </summary>
+            <param name="gridView">view таблица</param>
+            <param name="e">поведение мыши</param>
+            <param name="model">выбранная запись</param>
+            <param name="delListener">событие на удаление</param>
+            <param name="editListener">событие на изменение</param>
+        </member>
+        <member name="T:Cursach.Properties.Resources">
+            <summary>
+              Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
+            </summary>
+        </member>
+        <member name="P:Cursach.Properties.Resources.ResourceManager">
+            <summary>
+              Возвращает кэшированный экземпляр ResourceManager, использованный этим классом.
+            </summary>
+        </member>
+        <member name="P:Cursach.Properties.Resources.Culture">
+            <summary>
+              Перезаписывает свойство CurrentUICulture текущего потока для всех
+              обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.
+            </summary>
+        </member>
+        <member name="P:Cursach.Properties.Resources.CaptionMessageBox">
+            <summary>
+              Ищет локализованную строку, похожую на Внимание!.
+            </summary>
+        </member>
+        <member name="P:Cursach.Properties.Resources.FileOpenFailMessage">
+            <summary>
+              Ищет локализованную строку, похожую на Не удается открыть файл!.
+            </summary>
+        </member>
+        <member name="P:Cursach.Properties.Resources.FileOpenMessage">
+            <summary>
+              Ищет локализованную строку, похожую на Файл открыт!.
+            </summary>
+        </member>
+        <member name="P:Cursach.Properties.Resources.FileSaveMessage">
+            <summary>
+              Ищет локализованную строку, похожую на Файл сохранен.
+            </summary>
+        </member>
+        <member name="P:Cursach.Properties.Resources.funnel">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Cursach.Properties.Resources.GroupFailMessage">
+            <summary>
+              Ищет локализованную строку, похожую на Не удалось сгруппировать по данным параметрам!.
+            </summary>
+        </member>
+        <member name="P:Cursach.Properties.Resources.HouseholdAddFailMessage">
+            <summary>
+              Ищет локализованную строку, похожую на Колличество или цена должны быть больше нуля!.
+            </summary>
+        </member>
+        <member name="P:Cursach.Properties.Resources.logo">
+            <summary>
+              Поиск локализованного ресурса типа System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Cursach.Properties.Resources.PersonAddFailMessage">
+            <summary>
+              Ищет локализованную строку, похожую на В данной квартире уже есть собственник!.
+            </summary>
+        </member>
+        <member name="P:Cursach.Properties.Resources.SearchFailMessage">
+            <summary>
+              Ищет локализованную строку, похожую на Поиск выдал нулевой результат!.
+            </summary>
+        </member>
+        <member name="P:Cursach.Properties.Resources.ServiceAddErrorMessage">
+            <summary>
+              Ищет локализованную строку, похожую на Такая запись уже существует!.
+            </summary>
+        </member>
+    </members>
+</doc>

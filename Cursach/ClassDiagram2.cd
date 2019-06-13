@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Cursach.Model.Household" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAgEAAAAAAABQAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Household.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.Model.MetaInfo" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAEAAAAAAAAAg=</HashCode>
+      <FileName>Model\MetaInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.Model.Model">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.Model.Person" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAIAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Model\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.Model.Receipt" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgEAAAAAAABAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Receipt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.Model.Service" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgEAAAAAAABAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Service.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.Program" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.PersonFilters" Collapsed="true">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gABMAQESCCIgABAgAQDAIFADEAAYBUGAhGAADEABAQQ=</HashCode>
+      <FileName>View\Filters\PersonFilters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.Properties.Resources" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAEABAAAUACBEAAACQIAAAAAAgAAhAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.Properties.Settings" Collapsed="true">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.Utils.Crypto" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Utils\Crypto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.Utils.DbContext" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAEAABAAAgAQAAAAAAAAAAABAQIAAAAAAAACAAAAQA=</HashCode>
+      <FileName>Utils\DBContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.ViewHelpers.TableConverter" Collapsed="true">
+    <Position X="9.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAQAgAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>ViewHelpers\TableConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.View.EditForms.HouseholdEdit" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UgAAAQAAACAEABAAAQCAAAACAAAAAARAAAAAAAAAAAA=</HashCode>
+      <FileName>View\EditForms\HouseholdEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.View.EditForms.PersonEdit" Collapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UgAAACAAACAEABAACQCAAAACAAAAAAQAAAAAgAAAAAA=</HashCode>
+      <FileName>View\EditForms\PersonEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.View.EditForms.ReceiptAdd" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UgAASAAAAGAEABAABQCAAAACAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>View\EditForms\ReceiptAdd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.View.EditForms.ReceiptEdit" Collapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACCAABAAAQCAAAACAAAAAARAAAAAAAAAAAA=</HashCode>
+      <FileName>View\EditForms\ReceiptEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.View.EditForms.ServiceEdit" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACAEABAQAQCAAAACAAAAAARAAAAAAAAAAAA=</HashCode>
+      <FileName>View\EditForms\ServiceEdit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.View.Filters.FilterInfo" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAEBQBBAEEAAAAAAQAAQAAAwAAAAAAAAAAIBE=</HashCode>
+      <FileName>View\Filters\FilterInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.View.Filters.FilterViewHelper" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAgAQAAAAEgAAAAIAYAAAAAAAAAAAAAgAgAAAAgAA=</HashCode>
+      <FileName>View\Filters\FilterViewHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.View.Filters.HouseholdFilters" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADsAQFSCCIgBBAgAQDoIGALEAgSBQGAhCAABECBAQQ=</HashCode>
+      <FileName>View\Filters\HouseholdFilters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.View.Filters.ReceiptFilters" Collapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADsAQFSCCIgABAgAQDIIEADEAgQBQGAhCAABECBAQQ=</HashCode>
+      <FileName>View\Filters\ReceiptFilters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.View.Filters.ServiceFilters" Collapsed="true">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADsAQFSCCIgABAgAQDIIEADEAgSBQGAhCAABECBAQQ=</HashCode>
+      <FileName>View\Filters\ServiceFilters.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.View.Form1" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>fyCFgECSiWAkbBMDjCHx8AAioDq8gkoA4GgBoLQhwWQ=</HashCode>
+      <FileName>View\Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.View.ReceiptForm" Collapsed="true">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SIgAAAAQCGREABAABCKQgAACIAQQABhAAAAQAAQDACA=</HashCode>
+      <FileName>View\ReceiptForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.View.SplashScreen" Collapsed="true">
+    <Position X="16.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQAAAAAAACCAABAAAACAAAACAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>View\SplashScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cursach.ViewHelpers.TableHelper" Collapsed="true">
+    <Position X="11.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACABAAAAAAEAAAAEAAAAAABAACA=</HashCode>
+      <FileName>ViewHelpers\TableHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

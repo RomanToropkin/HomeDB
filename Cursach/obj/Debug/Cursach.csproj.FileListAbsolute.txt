@@ -1,0 +1,29 @@
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\Cursach.View.EditForms.PersonEdit.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\Cursach.Properties.Resources.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\Cursach.PersonFilters.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\Cursach.csproj.GenerateResource.cache
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\Cursach.csproj.CoreCompileInputs.cache
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\Cursach.View.EditForms.ReceiptAdd.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\Cursach.View.ReceiptForm.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\Cursach.View.Filters.ReceiptFilters.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\Cursach.View.EditForms.ReceiptEdit.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\Cursach.View.EditForms.ServiceEdit.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\Cursach.View.Filters.ServiceFilters.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\Cursach.View.SplashScreen.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\Cursach.View.EditForms.HouseholdEdit.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\Cursach.View.Filters.HouseholdFilters.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\Cursach.View.Form1.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\bin\Debug\База данных Дома 404.exe.config
+C:\Users\FranQ\source\repos\Cursach\Cursach\bin\Debug\База данных Дома 404.xml
+C:\Users\FranQ\source\repos\Cursach\Cursach\bin\Debug\База данных Дома 404.exe
+C:\Users\FranQ\source\repos\Cursach\Cursach\bin\Debug\База данных Дома 404.pdb
+C:\Users\FranQ\source\repos\Cursach\Cursach\bin\Debug\База данных Дома 404.exe.CodeAnalysisLog.xml
+C:\Users\FranQ\source\repos\Cursach\Cursach\bin\Debug\База данных Дома 404.exe.lastcodeanalysissucceeded
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\База данных Дома 404.g.resources
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\База данных Дома 404.exe
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\База данных Дома 404.pdb
+C:\Users\FranQ\source\repos\Cursach\Cursach\bin\Debug\База данных Дома 404.exe.manifest
+C:\Users\FranQ\source\repos\Cursach\Cursach\bin\Debug\База данных Дома 404.application
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\База данных Дома 404.TrustInfo.xml
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\База данных Дома 404.exe.manifest
+C:\Users\FranQ\source\repos\Cursach\Cursach\obj\Debug\База данных Дома 404.application

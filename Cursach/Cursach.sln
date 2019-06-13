@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cursach", "Cursach.csproj", "{4FAE6C03-7772-4AAC-A7F6-C5E804CE6B09}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installer", "Installer\Installer.vdproj", "{766100A6-C231-4512-A5B3-62D75C0D9426}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FAE6C03-7772-4AAC-A7F6-C5E804CE6B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FAE6C03-7772-4AAC-A7F6-C5E804CE6B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FAE6C03-7772-4AAC-A7F6-C5E804CE6B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FAE6C03-7772-4AAC-A7F6-C5E804CE6B09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{766100A6-C231-4512-A5B3-62D75C0D9426}.Debug|Any CPU.ActiveCfg = Debug
+		{766100A6-C231-4512-A5B3-62D75C0D9426}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32FD0A12-C3D8-479E-AF8F-E4B01F5CBAB7}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal
